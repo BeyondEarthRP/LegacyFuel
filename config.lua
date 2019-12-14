@@ -4,8 +4,8 @@ Config = {}
 Config.UseESX = true
 
 -- What should the price of jerry cans be?
-Config.JerryCanCost = 100
-Config.RefillCost = 50 -- If it is missing half of it capacity, this amount will be divided in half, and so on.
+Config.JerryCanCost = 55
+Config.RefillCost = 80 -- If it is missing half of it capacity, this amount will be divided in half, and so on.
 
 -- Fuel decor - No need to change this, just leave it.
 Config.FuelDecor = "_FUEL_LEVEL"
@@ -14,11 +14,11 @@ Config.FuelDecor = "_FUEL_LEVEL"
 Config.DisableKeys = {0, 22, 23, 24, 29, 30, 31, 37, 44, 56, 82, 140, 166, 167, 168, 170, 288, 289, 311, 323}
 
 -- Want to use the HUD? Turn this to true.
-Config.EnableHUD = true
+Config.EnableHUD = false
 
 -- Configure blips here. Turn both to false to disable blips all together.
 Config.ShowNearestGasStationOnly = true
-Config.ShowAllGasStations = false
+Config.ShowAllGasStations = true
 
 -- Modify the fuel-cost here, using a multiplier value. Setting the value to 2.0 would cause a doubled increase.
 Config.CostMultiplier = 1.0
